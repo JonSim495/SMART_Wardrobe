@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>SMART Wardrobe</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0" />
+    <!-- Bootstrap -->
+	 <link href="frameworks/css/bootstrap.min.css" rel="stylesheet" />
+	 <link href="frameworks/css/bootstrap-theme.min.css" rel="stylesheet"/>
+	 <link href="frameworks/css/style.css" rel="stylesheet"/>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+<div class="container-fluid">
+	<nav class="navbar navbar head">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			  <a class="navbar-brand system" href="#">SmartWardrobe</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="Main_Page.html">Home</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+				<li><a href="ClothCombi.html">Combination</a></li>
+				<li><a href="ClothTrack.html">Tracking Cloth</a></li>
+				<li><a href="HelpContact.html">Help & Contact</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="log_in.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+<div class="container-fluid"> 
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="btn-group-vertical" style="padding:30px 20px 300px 20px; background-color:#DCDCDC;" >
+				<button type="button" class="btn btn-secondary"data-toggle="modal" data-target="#myModal1">Details of clothing's worn period</button>
+				  <!-- Modal -->
+					  <div class="modal fade" id="myModal1" role="dialog">
+						<div class="modal-dialog">
+						
+						  <!-- Modal content-->
+						  <div class="modal-content">
+							<div class="modal-header">
+							  <button type="button" class="close" data-dismiss="modal">&times;</button>
+							  <h4 class="modal-title">Period of Clothings worn</h4>
+							</div>
+							<div class="modal-body"> 
+								<table class="table"> 
+									 <thead> 
+									   <tr> 
+										 <th>id</th> 
+										 <th>name</th> 
+										 <th>Image</th> 
+										 <th>date of wear</th> 
+										
+									    </tr>
+									 </thead> 
+									 <tbody> 
+									   <tr> 
+										 <td>1</td> 
+										 <td>Anna</td> 
+										 <td><img src="image/1.jpg" alt="Los Angeles" width="100" height="100"></td> 
+										 <td>1/2/2018 </br> 3/2/2018</td> 
+									   </tr> 
+									   <tr> 
+										 <td>2</td> 
+										 <td>Debbie</td> 
+										 <td><img src="image/5.jpg" alt="Los Angeles" width="100" height="100"></td> 
+										 <td>11/2/2018 </br> 13/2/2018</td> 
+									   </tr> 
+									   <tr>
+										 <td>3</td> 
+										 <td>John</td> 
+										 <td><img src="image/2.jpg" alt="Los Angeles" width="100" height="100"></td>
+										 <td>21/2/2018 </br> 23/2/2018</td>
+									   </tr>
+									 </tbody> 
+								   </table> 
+							</div>
+							<div class="modal-footer">
+							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						  </div>
+						  
+						</div>
+					  </div>
+				<button type="button" class="btn btn-secondary"data-toggle="modal" data-target="#myModal2">Laundry Notification</button>
+				  <!-- Modal -->
+					  <div class="modal fade" id="myModal2" role="dialog">
+						<div class="modal-dialog">
+						
+						  <!-- Modal content-->
+						  <div class="modal-content">
+							<div class="modal-header">
+							  <button type="button" class="close" data-dismiss="modal">&times;</button>
+							  <h4 class="modal-title">Notification for laundry</h4>
+							</div>
+							<div class="modal-body">
+							 
+								<table class="table"> 
+									 <thead> 
+									   <tr> 
+										 <th>id</th> 
+										 <th>name</th> 
+										 <th>Image</th> 
+										 <th>Times worn used</th>
+										 <th>Sent to laundry</th>										 
+										
+									    </tr>
+									 </thead> 
+									 <tbody> 
+									   <tr> 
+										 <td>1</td> 
+										 <td>Anna</td> 
+										 <td><img src="image/1.jpg" alt="Los Angeles" width="100" height="100"></td> 
+										 <td>Two Times</td> 
+										 <td><button type="button" class="btn">sended<button></td> 
+									   </tr> 
+									   <tr> 
+										 <td>2</td> 
+										 <td>Debbie</td> 
+										 <td><img src="image/5.jpg" alt="Los Angeles" width="100" height="100"></td> 
+										 <td>three Times</td> 
+										 <td><button type="button" class="btn">sended<button></td> 
+									   </tr> 
+									   <tr>
+										 <td>3</td> 
+										 <td>John</td> 
+										 <td><img src="image/2.jpg" alt="Los Angeles" width="100" height="100"></td>
+										 <td>two Times</td>
+										 <td><button type="button" class="btn">sended<button></td> 
+									   </tr>
+									 </tbody> 
+								   </table> 								
+							</div> 
+							<div class="modal-footer">
+							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						  </div>
+						  
+						</div>
+					  </div>
+				<button type="button" class="btn btn-secondary"data-toggle="modal" data-target="#myModal3">Donation suggestion</button>
+				  <!-- Modal -->
+					  <div class="modal fade" id="myModal3" role="dialog">
+						<div class="modal-dialog">
+						
+						  <!-- Modal content-->
+						  <div class="modal-content">
+							<div class="modal-header">
+							  <button type="button" class="close" data-dismiss="modal">&times;</button>
+							  <h4 class="modal-title">Suggestion for Donation</h4>
+							</div>
+							<div class="modal-body">
+								<table class="table"> 
+									<thead> 
+									   <tr> 
+										 <th>id</th> 
+										 <th>name</th> 
+										 <th>Image</th> 
+										 <th>Last used</th> 
+										
+									    </tr>
+									</thead> 
+									 <tbody> 
+									   <tr> 
+										 <td>1</td> 
+										 <td>Anna</td> 
+										 <td><img src="image/1.jpg" alt="Los Angeles" width="100" height="100"></td> 
+										 <td>1/2/2017 </td> 
+									   </tr> 
+									   <tr> 
+										 <td>2</td> 
+										 <td>Debbie</td> 
+										 <td><img src="image/5.jpg" alt="Los Angeles" width="100" height="100"></td> 
+										 <td>11/2/2017</td> 
+									   </tr> 
+									   <tr>
+										 <td>3</td> 
+										 <td>John</td> 
+										 <td><img src="image/2.jpg" alt="Los Angeles" width="100" height="100"></td>
+										 <td>21/2/2017</td>
+									   </tr>
+									 </tbody> 
+								</table> 
+							</div>
+							<div class="modal-footer">
+							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						  </div>
+						  
+						</div>
+					  </div>
+			</div>
+		</div>
+		
+		<div class="col-sm-9">
+			<div class="container-fluid"> 
+				
+			
+				<div class="month">      
+				  <ul>
+					<li class="prev">&#10094;</li>
+					<li class="next">&#10095;</li>
+					<li>
+					  August<br>
+					  <span style="font-size:18px">2018</span>
+					</li>
+				  </ul>
+				</div>
+
+				<ul class="weekdays">
+				  <li>Mo</li>
+				  <li>Tu</li>
+				  <li>We</li>
+				  <li>Th</li>
+				  <li>Fr</li>
+				  <li>Sa</li>
+				  <li>Su</li>
+				</ul>
+
+				<ul class="days">  
+				  <li>1</li>
+				  <li>2</li>
+				  <li>3</li>
+				  <li>4&nbsp;<button type="button" > samarahan trip</button></li>
+				  <li>5</li>
+				  <li>6</li>
+				  <li>7</li>
+				  <li>8</li>
+				  <li>9</li>
+				  <li>10</li>
+				  <li>11</li>
+				  <li>12</li>
+				  <li>13</li>
+				  <li>14</li>
+				  <li>15</li>
+				  <li>16</li>
+				  <li>17</li>
+				  <li>18</li>
+				  <li>19</li>
+				  <li>20&nbsp;<button type="button"> Bako national park trip</button></li>
+				  <li>21</li>
+				  <li>22</li>
+				  <li>23</li>
+				  <li>24</li>
+				  <li>25</li>
+				  <li>26</li>
+				  <li>27</li>
+				  <li>28</li>
+				  <li>29</li>
+				  <li>30</li>
+				  <li>31</li>
+				</ul>
+
+
+            </div>
+				
+        </div>
+		
+	</div>
+</div>		
+	<!-- jQuery – required for Bootstrap's JavaScript plugins) -->
+    <script src="frameworks/js/jquery.min.js"></script>
+    <!-- All Bootstrap plug-ins file -->
+    <script src="frameworks/js/bootstrap.min.js"></script>
+    <!-- Basic AngularJS -->
+    <script src="frameworks/js/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
